@@ -138,6 +138,12 @@ footer {
 
 
 @media (max-width: 1000px ) {
+  .articles-container {
+    flex-direction: column;
+  }
+  .article {
+    margin-bottom: 20px;
+  }
   .thin-link-section {
     margin-bottom: 20px;
   }
