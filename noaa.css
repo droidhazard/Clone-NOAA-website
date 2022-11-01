@@ -1,0 +1,157 @@
+.topbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+
+.sattelite-image {
+  height: 500px;
+  margin-top: 0;
+  background-image: url("sattelite.jpg");
+  background-size: cover;
+}
+
+.noaa-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.articles-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+}
+.article-link {
+  word-wrap: break-word;
+}
+.article-thumbnail {
+  width: 80%;
+  transition: all 0.5s ease-out;
+  background-size:auto;
+}
+
+footer {
+  background-color: #2b2b2b;
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.footer-branding-section {
+  color: aliceblue;
+  font-weight: lighter;
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 70%;
+}
+.footer-link-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-basis: 50%;
+}
+.footer-social-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+}
+.social-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.thin-link-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.bold-link-section {
+  margin-bottom: 10px;
+}
+
+.footer-link-bold {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px 10px 10px;
+  border-bottom: 1px dotted #00000000;
+}
+
+.footer-link-thin {
+  color: aliceblue;
+  text-decoration: none;
+  display: inline;
+  margin: 0 10px 0 10px;
+  line-height: 2;
+  font-weight: lighter;
+  border-bottom: 1px dotted #00000000;
+}
+
+.footer-link-bold:hover,
+.footer-link-thin:hover,
+.s-ico:hover {
+  color: antiquewhite;
+  /* text-decoration: underline; */
+  border-bottom: 1px dotted white;
+}
+
+.social-icons {
+  color: aliceblue;
+}
+
+.s-ico {
+  margin-right: 5px;
+  transition: all 0.2s ease-out;
+}
+
+.s-ico:hover {
+  color: cornflowerblue;
+}
+.feedback-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+@media (max-width: 1000px ) {
+  .thin-link-section {
+    margin-bottom: 20px;
+  }
+  .footer-branding-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .feedback-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  footer {
+    flex-direction: column;
+  }
+}
